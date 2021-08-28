@@ -1,0 +1,29 @@
+.transaction {
+  margin: 0 auto;
+  width: 600px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.transaction_history {
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.transaction_history thead {
+  background: rgb(54, 147, 201);
+  color: #fff;
+}
+
+.transaction_history th,
+.transaction_history td {
+  padding: 10px 40px;
+  border: 1px solid gray;
+}
+
+.transaction_history > tbody > tr:nth-child(2n) {
+  background: rgb(133, 184, 190);
+}
